@@ -1,3 +1,3 @@
 ```
-	node --harmony example.js
+	node --harmony <example.js>
 ```
