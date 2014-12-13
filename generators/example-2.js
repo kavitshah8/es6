@@ -1,26 +1,29 @@
-// Creating a generator function
 function* genFun(){
 
-	// yield must return one value, also it can accept an optional argument
+	// yield must return a value, I think default value it returns is NULL
 	yield "Hello World";
+
 	return "Hello Universe";
 }
 
+// Incorrect way to use generators :
+
 // Calling next will enter the generator function it will be paused whenever it sees yield.
-console.log(genFun().next());
+console.log(genFun().next()); // { value: 'Hello World', done: false }
 
-// Calling next again will resume execution of the generator function from where it was paused.
-// Here it recreates an iterator object so the generator will be paused at the first occurance of yield.
-console.log(genFun().next());
+// Calling next again should resume execution of the generator function from where it was paused.
+// Here it recreates an iterator object again, hence it will not restart from where it was paused.
+console.log(genFun().next()); // { value: 'Hello World', done: false }
 
-
-// Below is the correct way to use generators. If you want to pause and resume it.
+// Correct way to use generators :
 
 // gen will be an iterator object, which has next method define on it.
-var gen = genFun();
+var gen = genFun(); 
+
+console.log(gen); // {}
 
 // calling next will return the value returned by first yield
-console.log(gen.next());
+console.log(gen.next()); // { value: 'Hello World', done: false}
 
 // calling next aging will resume the generator execution where it was stopped
-console.log(gen.next());
+console.log(gen.next()); // { value: 'Hello Universe', done: false}
