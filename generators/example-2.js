@@ -1,6 +1,6 @@
 function* genFun(){
 
-	// yield must return a value, if ommited then returns undefined
+	// yield(or return) must return a value, if ommited then returns undefined
 	yield "Hello World";
 
 	return "Hello Universe";
