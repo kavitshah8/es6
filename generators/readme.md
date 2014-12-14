@@ -4,7 +4,5 @@ Methods for generators
 	gen.throw();
 ```
 
-Popular generator runner library
-```
-	[co](https://github.com/tj/co)
-```
+Popular generator runner library 
+1. [co](https://github.com/tj/co)
