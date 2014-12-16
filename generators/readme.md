@@ -1,4 +1,5 @@
 Notes:
+
 1. functin* () creates a generator object
 2. generator object returns an iterator object
 3. there are runner libraries which runs promises
