@@ -1,3 +1,8 @@
+Notes:
+1. functin* () creates a generator object
+2. generator object returns an iterator object
+3. there are runner libraries which runs promises
+
 To use generators in node you should have node `v0.11.X` and you have to use `--harmony` flag as follows:
 ```
 	nvm use v0.11.*
@@ -6,7 +11,7 @@ To use generators in node you should have node `v0.11.X` and you have to use `--
 
 Methods for generators
 ```
-	gen.next();
+	[gen.next()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol);
 	gen.throw();
 ```
 
