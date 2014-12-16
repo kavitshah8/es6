@@ -5,3 +5,5 @@ To do
 
 2. Generators 
 		Examples of yield *
+
+3. Arrow sign, let, class, module
