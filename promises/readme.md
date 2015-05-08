@@ -11,5 +11,6 @@
 
 ### Resources
 
-1. MDN recoemmended [example](https://github.com/mdn/promises-test/blob/gh-pages/index.html)
-2. Random [blog1](http://making.change.org/post/69613524472/promises-and-error-handling), [blog2](http://making.change.org/post/69613524472/promises-and-error-handling)
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+2. [JS Promises](http://www.html5rocks.com/en/tutorials/es6/promises/) 
+3. Random [blog1](http://making.change.org/post/69613524472/promises-and-error-handling), [blog2](http://making.change.org/post/69613524472/promises-and-error-handling)
