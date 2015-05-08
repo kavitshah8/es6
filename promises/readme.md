@@ -12,3 +12,4 @@
 ### Resources
 
 1. MDN recoemmended [example](https://github.com/mdn/promises-test/blob/gh-pages/index.html)
+2. Random [blog1](http://making.change.org/post/69613524472/promises-and-error-handling), [blog2](http://making.change.org/post/69613524472/promises-and-error-handling)

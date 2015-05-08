@@ -1,5 +1,4 @@
 var p1;
-var settledPromise;
 
 // Promise object takes one function which accepts two arguments
 

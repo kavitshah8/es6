@@ -1,5 +1,4 @@
 var p1;
-var settledPromise;
 
 p1 = new Promise (function(resolve, reject) {
 	resolve();
